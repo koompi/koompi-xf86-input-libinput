@@ -1,7 +1,3 @@
-# Maintainer: Vincent Grande <shoober420@gmail.com>
-# Contributor: Det <thatone>
-# Contributor: Laurent Carlier <lordheavym@gmail.com>
-
 pkgname=koompi-xf86-input-libinput
 pkgver=1.0.1
 pkgrel=1
@@ -18,7 +14,7 @@ conflicts=('xf86-input-libinput')
 groups=('xorg-drivers')
 source=("git+https://gitlab.freedesktop.org/xorg/driver/xf86-input-libinput")
 sha512sums=('SKIP')
-validpgpkeys=('SKIP') # Peter Hutterer (Who-T) <office@who-t.net>
+validpgpkeys=('SKIP')
 
 build() {
   cd xf86-input-libinput
