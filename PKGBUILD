@@ -2,7 +2,7 @@
 # Contributor: Det <thatone>
 # Contributor: Laurent Carlier <lordheavym@gmail.com>
 
-pkgname=koompi-xf86-input-libinput-git
+pkgname=koompi-xf86-input-libinput
 pkgver=1.0.1
 pkgrel=1
 pkgdesc="Generic input driver for the X.Org server based on libinput"
